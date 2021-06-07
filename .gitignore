@@ -1,0 +1,9 @@
+#env
+/gpuenv/
+/gpuenv/*
+
+#settings file
+settings.json
+
+#logs
+*.log
