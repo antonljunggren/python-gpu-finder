@@ -99,8 +99,8 @@ def search_webhallen():
             for stockLocation in product['stock']:
                 if product['stock'][stockLocation] > 0:
 
-                    if _debug_:
-                        print(gpuName + " : "+ str(gpuId) + " in stock")
+                    #if _debug_:
+                    print(gpuName + " : "+ str(gpuId) + " in stock")
 
                     #foundGpus.append((datetime.datetime.now, gpuId))
 
@@ -127,8 +127,8 @@ while  True:
 
     run = search_webhallen()
 
-    if _debug_:
-        print(run)
+    #if _debug_:
+    print(run)
     
     logData(run)
 
