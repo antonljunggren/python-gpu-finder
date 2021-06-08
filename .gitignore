@@ -1,6 +1,6 @@
 #env
-/gpuenv/
-/gpuenv/*
+/env/
+/env/*
 
 #settings file
 settings.json
