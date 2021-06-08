@@ -10,9 +10,12 @@
 * First create an enviroment
   * `python3 -m venv env`
   * `source env/bin/activate`
-* Then install all the packages listed in `dependencies.txt`
+* Then install all the packages listed in `dependencies.txt` (you may get some errors and need to install some packages separatley)
 * To run the script run `python3 web-scraper.py`
   * Available arguments:
     1. `--debug [boolean]` (false is default)
     2. `--seconds [number]` (60 is default)
-  * Example: `python3 web-scraper.py --seconds 30 --debug true`
+  * Example 1: `python3 web-scraper.py --seconds 30 --debug true`
+  * Example 2: `nohup python3 web-scraper.py --seconds 30 --debug false &` To run in background
+    * To kill the process run `jobs -l`to list the jobs and look for the process id (PID) then `kill <PID>` to kill the process with given PID
+* Then to look at the logs run for example `nano yyyy-MM-dd.log`
