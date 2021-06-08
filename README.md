@@ -11,6 +11,8 @@
   * `python3 -m venv env`
   * `source env/bin/activate`
 * Then install all the packages listed in `dependencies.txt` (you may get some errors and need to install some packages separatley)
+* To create the settings file run `python3 create-settings.py`
+* Then edit the values in the settings file to correct emails and password
 * To run the script run `python3 web-scraper.py`
   * Available arguments:
     1. `--debug [boolean]` (false is default)
