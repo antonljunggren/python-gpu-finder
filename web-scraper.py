@@ -104,7 +104,7 @@ def search_webhallen():
 
                     #foundGpus.append((datetime.datetime.now, gpuId))
 
-                    logData("Found GPU: " + gpuId + " : " + gpuName)
+                    logData("Found GPU: " + str(gpuId) + " : " + gpuName)
 
                     send_email(gpuName,
                     "https://www.webhallen.com/se/product/"+str(gpuId))
