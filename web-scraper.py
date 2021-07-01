@@ -76,7 +76,7 @@ def logData(data):
 def search_webhallen():
     startTime = datetime.datetime.now()
     gpuCount = 0
-    webhallen_url1 = "https://www.webhallen.com/api/search?query%5BsortBy%5D=sales&query%5Bfilters%5D%5B0%5D%5Btype%5D=category&query%5Bfilters%5D%5B0%5D%5Bvalue%5D=4684&query%5Bfilters%5D%5B1%5D%5Btype%5D=attributes&query%5Bfilters%5D%5B1%5D%5Bvalue%5D=110-1-NVIDIA%2BGeForce%2BRTX%2B3070%7ENVIDIA%2BGeForce%2BRTX%2B3080%7ENVIDIA%2BGeForce%2BRTX%2B3060%2BTi%7ENVIDIA%2BGeForce%2BRTX%2B3060&query%5BminPrice%5D=0&query%5BmaxPrice%5D=999999&page="
+    webhallen_url1 = "https://www.webhallen.com/api/search?query%5BsortBy%5D=sales&query%5Bfilters%5D%5B0%5D%5Btype%5D=category&query%5Bfilters%5D%5B0%5D%5Bvalue%5D=4684&query%5Bfilters%5D%5B1%5D%5Btype%5D=attributes&query%5Bfilters%5D%5B1%5D%5Bvalue%5D=110-1-NVIDIA%2BGeForce%2BRTX%2B3070%7ENVIDIA%2BGeForce%2BRTX%2B3080%7ENVIDIA%2BGeForce%2BRTX%2B3060%2BTi%7ENVIDIA%2BGeForce%2BRTX%2B3070&query%5BminPrice%5D=0&query%5BmaxPrice%5D=999999&page="
     webhallen_url2 = "&noCount=true"
 
     pages = range(1,10000)
